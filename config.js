@@ -67,15 +67,15 @@ global.SESSION_ID = process.env.SESSION_ID ||  "SUHAIL_19_59_05_23_ewogICJjcmVkc
 
 module.exports = {
 
-  menu: process.env.MENU || "", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
+  menu: process.env.MENU || "LUCIYA-MD_V4", /**  Available @MENU @Schemes 1: Aztec_Md, 2: A17_Md, 3: Suhail-Md Default ---------- If Not Choose then it Randomely Pic One Of Them Each time **/
 
   HANDLERS: process.env.PREFIX  || "#",
   BRANCH  : process.env.BRANCH  || "main",
   VERSION : process.env.VERSION || "1.3.7",
   caption : global.caption || "" , //LUCIFER-DEVIL-luciya-Md_V4"),
  
-  author : process.env.PACK_AUTHER|| "",
-  packname: process.env.PACK_NAME || "",
+  author : process.env.PACK_AUTHER|| "LUCIYA_MDV4",
+  packname: process.env.PACK_NAME || "LUCIYA_MDV4",
   botname : process.env.BOT_NAME  || "LUCIYA-MD_V4",
   ownername:process.env.OWNER_NAME|| "LUCIFER'DEVIL",
 
